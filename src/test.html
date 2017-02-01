@@ -7,23 +7,62 @@
 <body>
 <script>
 
-    var range;
     var gue;
+
     function setRange(min, max) {
-        range=max-min;
-        return range;
+        return (max-min)/2+min;
+
     }
 
 
     function guess() {
 
-        return  range/2;
+        gue= Math.ceil(setRange()/2);
+        return gue;
+    }
+
+    function lower() { /* вызывается если guess был меньше чем ответ */
+
+
+
+            return setRange(1500, 2000);
 
     }
 
-    setRange(1001, 2000);
-    guess();
-    console.log(guess);
+    lower();
+    console.log(lower());
+
+
+    const number = 409;
+
+    game.setRange(0, 4048);
+
+    let result = game.guess();
+    game.lower();
+    result = game.guess();
+    game.lower();
+    result = game.guess();
+    game.lower();
+    result = game.guess();
+    game.greater();
+    result = game.guess();
+    game.greater();
+    result = game.guess();
+    game.lower();
+    result = game.guess();
+    game.lower();
+    result = game.guess();
+    game.greater();
+    result = game.guess();
+    game.greater();
+    result = game.guess();
+    game.greater();
+    result = game.guess();
+    game.lower();
+    result = game.guess();
+
+    /* guess();
+     lower(); */
 
 
 
@@ -37,7 +76,7 @@
 
 
 
-    
+
 
     /* var range;
     function setRange(min, max) {
