@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c181aca3-b307-4520-9b7a-1a8905e41d71" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/guessing-game.iml" afterPath="$PROJECT_DIR$/.idea/guessing-game.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/guessing-game.js" afterPath="$PROJECT_DIR$/src/guessing-game.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test.html" afterPath="$PROJECT_DIR$/src/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/guessing-game.spec.js" afterPath="$PROJECT_DIR$/test/guessing-game.spec.js" />
     </list>
     <ignored path="guessing-game.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="guessing-game.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/guessing-game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -40,8 +38,8 @@
       <file leaf-file-name="guessing-game.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/guessing-game.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="246">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -50,8 +48,8 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="374">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -72,8 +70,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test.html" />
         <option value="$PROJECT_DIR$/test/guessing-game.spec.js" />
+        <option value="$PROJECT_DIR$/src/test.html" />
         <option value="$PROJECT_DIR$/src/guessing-game.js" />
       </list>
     </option>
@@ -234,12 +232,12 @@
       <workItem from="1485887923528" duration="7150000" />
       <workItem from="1485938645463" duration="9344000" />
       <workItem from="1485954219616" duration="4516000" />
-      <workItem from="1485979091329" duration="116000" />
+      <workItem from="1485979091329" duration="5931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21126000" />
+    <option name="totallyTimeSpent" value="26941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -352,26 +350,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.html">
+    <entry file="file://$PROJECT_DIR$/test/guessing-game.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="246">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/guessing-game.spec.js">
+    <entry file="file://$PROJECT_DIR$/src/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/guessing-game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>

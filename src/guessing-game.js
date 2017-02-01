@@ -5,37 +5,27 @@ class GuessingGame {
         this.gue=0;
     }
 
-
-
     setRange(min, max) {  /* принимаются мин и макс значения диапазон из которого необходимо выбирать */
-
-        this._gue=(max-min)/2+min;
-        return this._gue;
+        this.mingue=min;
+        this.maxgue=max;
+        return this.mingue;
+        return this.maxgue;
     }
 
     guess() { /* этот метод возвращает число основываясь на диапазоне и полученных данных */
         /* необходимо делить диапазон чисел из которых выбирать на два */
-        /*range/2;*/
-
-        result= Math.ceil(this._gue);
-        return result;
-
-
+        this.gue=Math.ceil((this.maxgue-this.mingue)/2+this.mingue);
+        return this.gue;
     }
 
     lower() { /* вызывается если guess был больше чем ответ */
-
-        max=result;
-        return max;
-        setRange(min,max);
-
-
+        this.maxgue=this.gue;
+        return this.maxgue;
     }
 
     greater() { /* возвращается если guess был больше чем ответ */
-        min=results;
-        return setRange(min,max);
-
+        this.mingue=this.gue;
+        return this.mingue;
     }
 }
 

@@ -7,87 +7,67 @@
 <body>
 <script>
 
-    var gue;
+    var mingue=0;
+    var maxgue=0;
+    var gue=0;
+
 
     function setRange(min, max) {
-        return (max-min)/2+min;
-
-    }
-
+     mingue=min;
+     maxgue=max;
+     return mingue;
+     return maxgue;
+     }
 
     function guess() {
-
-        gue= Math.ceil(setRange()/2);
-        return gue;
-    }
-
-    function lower() { /* вызывается если guess был меньше чем ответ */
-
-
-
-            return setRange(1500, 2000);
+        gue =Math.ceil((maxgue-mingue)/2+mingue);
 
     }
 
+    function lower() {
+        maxgue=gue;
+        return maxgue;
+    }
+
+    function greater() {
+        mingue=gue;
+        return mingue;
+    }
+
+
+    setRange(0, 4048);
+    console.log(mingue);
+    console.log(maxgue);
+
+
+    guess();
+    console.log(gue);
     lower();
-    console.log(lower());
+    console.log(maxgue);
+    guess();
+    console.log(gue);
+    lower();
+    guess();
+    lower();
+    guess();
+    greater();
+    guess();
+    greater();
+    guess();
+    lower();
+    guess();
+    lower();
+    guess();
+    greater();
+    guess();
+    greater();
+    guess();
+    greater();
+    guess();
+    lower();
+    guess();
 
-
-    const number = 409;
-
-    game.setRange(0, 4048);
-
-    let result = game.guess();
-    game.lower();
-    result = game.guess();
-    game.lower();
-    result = game.guess();
-    game.lower();
-    result = game.guess();
-    game.greater();
-    result = game.guess();
-    game.greater();
-    result = game.guess();
-    game.lower();
-    result = game.guess();
-    game.lower();
-    result = game.guess();
-    game.greater();
-    result = game.guess();
-    game.greater();
-    result = game.guess();
-    game.greater();
-    result = game.guess();
-    game.lower();
-    result = game.guess();
-
-    /* guess();
-     lower(); */
-
-
-
-    /* function plus() {
-        return 2+2;
-
-    }
-
-    plus();
-    console.log(plus()); */
-
-
-
-
-
-    /* var range;
-    function setRange(min, max) {
-        var sum;
-        sum=max-min;
-        range=sum/2;
-
-        return range;
-    }
-    setRange(1000, 2000);
-    console.log(range); */
+    console.log(gue);
 
 </script>
 
